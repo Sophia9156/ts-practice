@@ -1,5 +1,5 @@
 import React from "react";
-import { useSampleDispatch, useSampleState } from "../context/SampleContext";
+import { useSampleDispatch, useSampleState } from "../../context/SampleContext";
 
 export default function ReducerSample() {
   const state = useSampleState();
