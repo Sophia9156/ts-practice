@@ -17,6 +17,11 @@ export default function Header() {
               <span>SESSION 2</span>
             </Link>
           </li>
+          <li>
+            <Link to='/recoil-test'>
+              <span>Recoil Test</span>
+            </Link>
+          </li>
         </ul>
       </nav>
     </StyledHeader>
