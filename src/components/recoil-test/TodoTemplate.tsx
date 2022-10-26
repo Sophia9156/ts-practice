@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import TodoTitle from "components/recoil-test/TodoTitle/TodoTitle";
-import TodoList from "components/recoil-test/TodoList/TodoList";
-import TodoInput from "../TodoInput/TodoInput";
+import TodoTitle from "components/recoil-test/TodoTitle";
+import TodoList from "components/recoil-test/TodoList";
+import TodoInput from "./TodoInput";
 
 export default function TodoTemplate() {
   return (

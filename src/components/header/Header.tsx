@@ -8,18 +8,18 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <Link to='/session1'>
-              <span>SESSION 1</span>
-            </Link>
-          </li>
-          <li>
-            <Link to='/session2'>
-              <span>SESSION 2</span>
+            <Link to='/redux'>
+              <span>Redux</span>
             </Link>
           </li>
           <li>
             <Link to='/recoil-test'>
               <span>Recoil Test</span>
+            </Link>
+          </li>
+          <li>
+            <Link to='/recoil-test2'>
+              <span>Recoil Test2</span>
             </Link>
           </li>
         </ul>

@@ -4,7 +4,7 @@ import { MdClose } from "react-icons/md";
 import { SetterOrUpdater } from "recoil";
 import { ITodoTypes } from "recoil/todos";
 import styled from "styled-components";
-import TodoModal from "components/recoil-test/TodoModal/TodoModal";
+import TodoModal from "components/recoil-test/TodoModal";
 
 interface PropTypes {
   id: number;

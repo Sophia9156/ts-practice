@@ -1,12 +1,12 @@
 import React from "react";
 import { RecoilRoot } from "recoil";
-import TodoTemplate from "components/recoil-test/TodoTemplate";
+import List from "components/recoil-test2/List";
 
-export default function RecoilTest() {
+export default function RecoilTest2() {
   return (
     <main>
       <RecoilRoot>
-        <TodoTemplate />
+        <List />
       </RecoilRoot>
     </main>
   )
