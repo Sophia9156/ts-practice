@@ -1,5 +1,5 @@
 import { useRecoilValueLoadable } from "recoil"
-import { instagramSelector } from "recoil/list"
+import { instagramSelector } from "modules/recoil/list"
 
 export default function List() {
   const { state, contents } = useRecoilValueLoadable(instagramSelector);

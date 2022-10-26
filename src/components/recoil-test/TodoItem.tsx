@@ -2,7 +2,7 @@ import React, { useCallback, useState } from "react";
 import { FaPen } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import { SetterOrUpdater } from "recoil";
-import { ITodoTypes } from "recoil/todos";
+import { ITodoTypes } from "modules/recoil/todos";
 import styled from "styled-components";
 import TodoModal from "components/recoil-test/TodoModal";
 

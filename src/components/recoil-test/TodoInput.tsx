@@ -2,7 +2,7 @@ import React, { ChangeEvent, useCallback } from "react";
 import styled from "styled-components";
 import { FaPen } from "react-icons/fa";
 import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
-import { inputState, ITodoTypes, todosState } from "recoil/todos";
+import { inputState, ITodoTypes, todosState } from "modules/recoil/todos";
 
 export default function TodoInput() {
   const [contents, setContents] = useRecoilState<string>(inputState);

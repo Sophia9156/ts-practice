@@ -22,6 +22,11 @@ export default function Header() {
               <span>Recoil Test2</span>
             </Link>
           </li>
+          <li>
+            <Link to='/zustand'>
+              <span>Zustand</span>
+            </Link>
+          </li>
         </ul>
       </nav>
     </StyledHeader>

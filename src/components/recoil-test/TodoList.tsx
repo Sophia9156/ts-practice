@@ -1,6 +1,6 @@
 import React, { useCallback } from "react";
 import { useRecoilState } from "recoil";
-import { ITodoTypes, todosState } from "recoil/todos";
+import { ITodoTypes, todosState } from "modules/recoil/todos";
 import styled from "styled-components";
 import TodoItem from "./TodoItem";
 
