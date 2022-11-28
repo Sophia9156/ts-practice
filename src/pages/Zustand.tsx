@@ -1,7 +1,6 @@
 import useBearStore, { BearStoreTypes } from "modules/zustand/store";
 import styled from "styled-components";
 
-
 export default function Zustand() {
   const { bears, increasePopulation, removeAllBears } = useBearStore<BearStoreTypes>(state => state);
 
